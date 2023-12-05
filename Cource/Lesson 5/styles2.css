@@ -1,0 +1,37 @@
+.info span{
+    color: green;
+
+  }
+
+.info{
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 25px;
+  }
+
+.contact-info{
+    padding: 30px;
+    font-size: 20px;
+    border: 3px solid green;
+    margin: 20px;
+    
+    
+  }
+  
+.description{
+    padding: 30px;
+    border: 3px solid rgb(251, 255, 0);
+    margin: 20px;
+    font-size: 20px;
+    
+    
+  }
+.ckartinkoi{
+    margin: 40px;
+    font-size: 30px;
+
+}
+.ckartinkoi img{
+   height: 330px;
+   width: 400px;
+}
