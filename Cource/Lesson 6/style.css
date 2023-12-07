@@ -1,0 +1,111 @@
+.wildlife-title h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+
+
+}
+.wildlife-list ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wildlife-list li{
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    width: 600px;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+ 
+
+
+
+}
+
+.wildlife-description{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Arial', sans-serif;
+
+}
+
+#lev{
+    color: red;
+
+}
+#zebra{
+    color: rgb(2, 252, 77);
+
+}
+
+#tiger{
+    color: #00FFFF;
+}
+
+#slon{
+    color: rgb(14, 146, 179, 0.6)
+
+}
+
+#gepard{
+    color: rgb(114, 252, 2);
+
+
+}
+#giraf{
+    color: blue;
+
+
+}
+.wildlife-list li .img{
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+
+
+
+    
+
+
+
+}
+#lev .img{
+
+    background-image: url(https://trendymen.ru/images/article1/132310/attachments/3.jpg);
+    background-size: cover;
+}
+#tiger .img{
+    background-image: url(https://images.techinsider.ru/upload/img_cache/8e9/8e99d1035b4f8b284cbd27951488a4c2_ce_1521x1013x200x0.jpg);
+    background-size: cover;
+
+}
+
+#slon .img{
+    background-image: url(https://i.bigenc.ru/resizer/resize?sign=aolUCLo87C1blr6fKYi5Mg&filename=vault/efdc02a61a4cd615b63642d1620b825c.webp&width=1200);
+    background-size: cover;
+    
+}
+
+#gepard .img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cheetah_Kruger.jpg/1200px-Cheetah_Kruger.jpg);
+    
+} 
+
+#zebra .img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Equus_quagga.jpg/1200px-Equus_quagga.jpg);
+
+}
+
+#giraf .img{
+    background-image: url(https://i.bigenc.ru/resizer/resize?sign=prOL2gobcwnw9R8xQPWFQw&filename=vault/b18fa19e7e42258112e5251b1201e806.webp&width=1200);
+
+}
