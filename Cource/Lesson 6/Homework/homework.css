@@ -1,0 +1,60 @@
+
+
+h1{
+    font-size: 50px;
+     font-weight: bold;
+     font-style: italic;
+     font-family: 'Vollkorn', serif;
+     color: rgb(192, 160, 56);
+     text-align: center;
+}
+
+ul {
+
+    width: 1000px;
+   
+}
+
+li {
+    padding-right: 400px;
+    background-size: 400px 300px;
+    border: 3px solid rgb(182, 61, 81);
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 300px;
+}
+
+li h3{
+    color: rgb(201, 22, 66);
+    text-align: center;
+    font-size: 30px;
+     font-weight: 500px;
+     font-style: italic;
+     font-family: 'Vollkorn', serif;
+}
+li p{
+    color: rgb(156, 26, 54);
+    padding: 0px 20px;
+    font-size: 20px;
+     font-weight: 300px;
+     font-style: normal;
+     line-height: 1.5; 
+     font-family: 'Vollkorn', serif;
+}
+
+
+.pir{
+    background-image: url('https://stihi.ru/pics/2018/12/13/6680.jpg');
+}
+.cake{
+    background-image: url('https://menunedeli.ru/wp-content/uploads/2019/11/Prostoi-blinniy-tortik-500x350-500x350.jpg');
+}
+.bs{
+    background-image: url('https://img.razrisyika.ru/kart/32/126752-pechene-7.jpg');
+}
+
+
+
+
