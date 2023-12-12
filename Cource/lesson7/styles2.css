@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Vollkorn', serif;
+
+}
+
+h1{
+  text-align: center;
+  color: #32CD32;
+  font-size: 50px;
+  font-weight: 900;
+
+}
+.info{
+  font-size: 22px;
+  line-height: 1.7;
+
+
+}
+.info span{
+    color: #32CD32;
+    font-weight: 400;
+
+  }
+ 
+  .info li{
+    list-style-type: "☆  ";
+    font-weight: bold;
+    margin-left: 100px;
+  }
+
+.ckartinkoi{
+  margin: 50px 0px 0px 80px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.ckartinkoi img{
+   height: 330px;
+   width: 400px;
+
+}
+.contact-info{
+  padding: 30px;
+  font-size: 22px;
+  border: 3px solid rgb(26, 255, 26);
+  margin: 30px 1000px 0px 60px;
+  line-height: 1.8;
+  
+}
+.contact-info h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #0e750e;
+ 
+}
+
+.description{
+  margin: 30px 1000px 30px 60px;
+  padding: 30px;
+  border: 3px solid rgb(251, 255, 0);
+  font-size: 22px;
+  line-height: 1.8;
+  
+  
+}
+.description h3{
+  font-size: 30px;
+  color: rgb(181, 199, 22);
+  margin-bottom: 5px;
+}
+.description li{
+  list-style-type: "☆  ";
+  margin-left: 30px;
+
+}
+.image{
+  background-image: url(https://sun9-80.userapi.com/impg/Hkg5eb2yYIRy19BmJxL0noGZ095jyyuvlrKTrQ/AZTOYHbTals.jpg?size=2560x2202&quality=95&sign=0ce756e1d427b3d00f44f56663b20b17&type=album);
+  background-size: cover;
+  height: 400px;
+  width: 450px;
+
+}
+
+.contact-info a{
+  background-color: rgb(151, 255, 66);
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.contact-info a:hover{
+  background-color: rgb(233, 255, 137);
+
+}
+.info li:hover{
+  color: #0e750e;
+  font-weight: bold;
+  
+}
+img:hover{
+  width: 550px;
+  height: 500px;
+  transition: 3s;
+}
+.description li:nth-child(2n){
+  color:#0e750e;
+
+}
+.description li:nth-child(3){
+  color:#0bff0b;
+
+}
+.description li:first-child{
+  color:#0bff0b;
+
+}
+.description li:last-child{
+  color:#0bff0b;
+  margin-bottom: 20px;
+
+}
+
+

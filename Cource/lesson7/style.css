@@ -1,0 +1,35 @@
+h1, p, ul, li, input, button, a {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 0;
+    border: none;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li:nth-child(2n){
+    color: red;
+}
+input::placeholder{
+    color: blue;
+}
+li::marker{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+
+}
+ul{
+    list-style-type: "✓ ";
+}
+li{
+    margin-left: 25px;
+}
