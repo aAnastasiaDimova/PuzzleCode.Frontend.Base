@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.vce{
+    height: 900px;
+    width: 1500px;
+}
+
+.imgtext1{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(134, 255, 134);
+    border: 3px solid rgb(129, 46, 97);
+}
+.imgtext2{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+    bottom: 100px;
+    left: 300px;
+    background-color: rgb(218, 252, 97);
+    border: 3px solid rgb(129, 46, 97);
+}
+.imgtext3{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 600px;
+    background-color: rgb(125, 186, 243);
+    border: 3px solid rgb(129, 46, 97);
+}
+.imgtext4{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 4;
+    top: 100px;
+    right: 600px;
+    background-color: rgb(166, 127, 240);
+    border: 3px solid rgb(129, 46, 97);
+}
+
+.imgtext5{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 5;
+    bottom: 250px;
+    right: 300px;
+    background-color: rgb(247, 150, 158);
+    border: 3px solid rgb(129, 46, 97);
+}
+.imgtext6{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    z-index: 6;
+    right: 50px;
+    bottom: 10px;
+    background-color: rgb(175, 149, 149);
+    border: 3px solid rgb(129, 46, 97);
+}
+#one{
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+#two{
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+#three{
+    float: right;
+    width: 300px;
+    height: 200px;
+
+}
+#four{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+#five{
+    float: left;
+    width: 300px;
+    height: 200px;
+
+    
+}
+
+#six{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    padding: 10px;
+}
