@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic', sans-serif;
+}
+main{
+    width: 1920px;
+}
+.AgricultureMatter{
+    background: linear-gradient(90deg, #263C28 -0.7%, rgba(38, 60, 40, 0.80) -0.69%, rgba(0, 0, 0, 0.00) 100%, rgba(38, 60, 40, 0.22) 100%), url(image/obloska.png), lightgray 0px -99.663px / 100% 134.101% no-repeat;
+    height: 954px;
+    background-size: cover;
+    padding-top: 268px;
+    
+
+
+}
+.AgricultureMatter div{
+    margin-right: 950px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border: 1px solid #000;
+}
+
+h6{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 215px;
+    flex-shrink: 0;
+    width: 215px;
+    height: 30px;
+    margin-left: 240px;
+    margin-bottom: 16px;
+   
+
+    
+   
+    }
+h1{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 87.85px;
+    width: 633px;
+    height: 88px;
+    top: 21px
+
+    }
+h3{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AgricultureMatter p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 730px;
+    padding-bottom: 30px;
+
+}
+button{
+    display: flex;
+  width: 228px;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #F7C35F;
+    margin-right: 1462px;
+    color: #1A1A1A;
+
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+    
+}
+
+
+.FruitsAndVegetables{
+    background: #334B35;
+    padding: 0px 240px;
+    padding-top: 78px;
+    padding-bottom: 214px;
+  
+    
+}
+
+h5{
+    color: #FFF;
+
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+text-transform: uppercase;
+text-align: center;
+}
+.z{
+margin-top: 20px;
+text-align: center;
+margin-bottom: 120px;
+}
+h2{
+color: #FFF;
+
+font-family: Livvic;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+outline: 1px solid red; 
+
+}
+.FruitsAndVegetables div{
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-between;
+    justify-content: center;
+align-items: center;
+}
+.cikonkami{
+    box-sizing: border-box;
+    width: 183px;
+    height: 177px;
+    padding: 33px 0px;
+
+    border-radius: 15px;
+    background: #445945;
+    outline: 1px solid red; 
+ 
+
+}
+.cikonkami img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 57px;
+
+}
+.cikonkami p{
+    width: 183px;
+color: #FFF;
+margin-top: 20px;
+text-align: center;
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+
+
+
+.Future{
+    background: linear-gradient(90deg, #263C28 -0.7%, rgba(38, 60, 40, 0.80) -0.69%, rgba(0, 0, 0, 0.00) 100%, rgba(38, 60, 40, 0.22) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(image/image.png), lightgray 50% / cover no-repeat;
+    width: 1920px;
+    box-sizing: border-box;
+    height: 694px;
+    flex-shrink: 0;
+    padding: 284px 1071px 284px 240px;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+.OurProjects{
+    background: #263C28;
+    background-image: url(image/style.png);
+    background-size: 100% 420px;
+    padding: 130px 240px 160px 240px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card{
+    width: 318px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 56px;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+}
+.card:nth-child(1){
+    
+    background-image: url(image/one.png);
+
+}
+.card:nth-child(2){
+    background-image: url(image/two.png);
+}
+.card:nth-child(3){
+    background-image: url(image/tree.png);
+}
+.card:nth-child(4){
+    background-image: url(image/four.png);
+    margin-right: -56px;
+
+}
+
+.cardtext{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    margin-right: 160px;
+    outline: 1px solid red; 
+}
+.card p:nth-child(1){
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card p:nth-child(2){
+    color: #FFF;
+    width: 133px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 5px;
+    
+}
+.strelka{
+    position: absolute;
+    right: 25px;
+    bottom: 41px;
+   
+}
