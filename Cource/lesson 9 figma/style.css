@@ -133,7 +133,7 @@ outline: 1px solid red;
 }
 .FruitsAndVegetables div{
     display: flex;
-    grid-gap: 20px;
+    grid-gap: 61px;
     justify-content: space-between;
     justify-content: center;
 align-items: center;
