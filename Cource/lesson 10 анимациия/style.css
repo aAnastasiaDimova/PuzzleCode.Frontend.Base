@@ -3,6 +3,44 @@
     padding: 0;
     font-family: 'Livvic', sans-serif;
 }
+
+
+header{
+    background: #334B35;
+    width: 1920px;
+    height: 110px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 197.461px;
+    height: 30.952px;
+    margin-left: 241px;
+    margin-top: 39px;
+}
+nav{
+    margin-right: 241px;
+    
+}
+header li{
+    display: inline-block;
+    color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 39px;
+margin-left: 50px;
+
+}
+header li:nth-child(1){
+    text-decoration: underline #F7C35F;
+    text-underline-offset: 8px;
+}
+
+
 main{
     width: 1920px;
 }
@@ -74,7 +112,7 @@ h3{
     padding-bottom: 30px;
 
 }
-button{
+.AgricultureMatter button{
     display: flex;
   width: 228px;
     padding: 25px 50px;
@@ -231,20 +269,21 @@ line-height: normal;
     border-radius: 10px;
     position: relative;
     background-size: cover;
+    border-radius: 10px;
+    
 }
 .card:nth-child(1){
     
-    background-image: url(image/one.png);
-
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%), url(image/one.png);
 }
 .card:nth-child(2){
-    background-image: url(image/two.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%), url(image/two.png);
 }
 .card:nth-child(3){
-    background-image: url(image/tree.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%),  url(image/tree.png);
 }
 .card:nth-child(4){
-    background-image: url(image/four.png);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%),  url(image/four.png);
     margin-right: -56px;
 
 }
@@ -254,7 +293,7 @@ line-height: normal;
     bottom: 20px;
     left: 25px;
     margin-right: 160px;
-    outline: 1px solid red; 
+    
 }
 .card p:nth-child(1){
     color: #F7C35F;
@@ -277,9 +316,115 @@ line-height: normal;
     margin-top: 5px;
     
 }
-.strelka{
+
+svg{
     position: absolute;
     right: 25px;
     bottom: 41px;
+    height: 24px;
+    width: 24px;
+    fill: #F7C35F;
+ 
    
+}
+
+
+.card:hover{
+    border: 1px solid #F7C35F;
+    transform: translateY(-10px);
+    transition: border 0.3s;
+    transition: translateY 0.3s;
+}
+.card:focus{
+    border: 1px solid #F7C35F;
+    transition: border-radius 0.3s;
+
+}
+
+.card:active{
+transform: scale(0.92);
+border: 1px solid #A16C06;
+transition: transform 0.3s;
+}
+
+.card:focus svg{
+    fill: #C58D21;
+    transition: fill 0.3s;
+}
+.card:active svg{
+    fill: #A16C06;
+    transition: fill 0.3s;
+}
+
+footer{
+    height: 110px;
+    background: #334B35;
+    width: 1920px;
+    color: #ffffff;
+
+}
+.footer{
+    padding-left: 241px;
+    padding-right: 241px;
+    height: 110px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+
+}
+.footer div{
+    display: flex;
+}
+.footer p:nth-child(2){
+    margin-left: 40px;
+}
+footer button{
+    margin-top: 19px;
+    height: 70px;
+    width: 70px;
+    align-items: flex-start;
+    border-radius: 70px;
+    background: #F7C35F;
+    color: #1A1A1A;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 40px;
+      
+  }
+
+  footer input{
+    margin-top: 19px;
+    width: 250px;
+    border-radius: 50px;
+    height: 30px;
+    background-color: #263C28;
+    padding: 20px;
+    border: 1px solid #939E94;
+}
+
+footer p{
+    margin-top: 39px;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+
+
+
+
+button:hover{
+    background-color: #F6D086;
+    transition: background-color 0.3s;
+}
+button:focus{
+    background-color: #C58D21;
+    transition: background-color 0.3s;
+}
+button:active{
+background-color:  #A16C06;
+transition: background-color 0.3s;
 }
