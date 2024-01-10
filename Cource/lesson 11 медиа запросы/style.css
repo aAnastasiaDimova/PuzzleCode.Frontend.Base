@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Livvic', sans-serif;
+}
+
+
+header{
+    background: #334B35;
+    max-width: 1920px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 197.461px;
+    height: 30.952px;
+    margin-left: 10%;
+    margin-top: 39px;
+    
+}
+nav{
+    margin-right: 10%;
+    
+}
+header li{
+    display: inline-block;
+    color: #FFF;
+font-family: Livvic;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 39px;
+margin-left: 50px;
+margin-bottom: 39px;
+
+}
+header li:nth-child(1){
+    text-decoration: underline #F7C35F;
+    text-underline-offset: 8px;
+}
+
+main{
+    max-width: 1920px;
+    min-width: 40px;
+    width: 100%;
+}
+
+
+
+.AgricultureMatter{
+    background: linear-gradient(90deg, #263C28 -0.7%, rgba(38, 60, 40, 0.80) -0.69%, rgba(0, 0, 0, 0.00) 100%, rgba(38, 60, 40, 0.22) 100%), url(image/obloska.png), lightgray 0px -99.663px / 100% 134.101% no-repeat;
+    height: auto;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+
+
+}
+.AgricultureMatter div{
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border: 1px solid #000;
+}
+
+h6{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15%;
+    
+    flex-shrink: 0;
+  
+    margin-left: 10%;
+    margin-bottom: 3%;
+   
+
+    
+   
+    }
+h1{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    
+    width: 90%;
+    height: 10%;
+    top: 2%;
+
+    }
+h3{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AgricultureMatter p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    padding-bottom: 5%;
+
+}
+.AgricultureMatter button{
+    display: flex;
+    width: 20%;
+    padding: 3% 5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #F7C35F;
+    
+    color: #1A1A1A;
+
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+    
+}
+
+button:hover{
+    background-color: #F6D086;
+    transition: background-color 0.3s;
+}
+button:focus{
+    background-color: #C58D21;
+    transition: background-color 0.3s;
+}
+button:active{
+background-color:  #A16C06;
+transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+.FruitsAndVegetables{
+    background: #334B35;
+    padding: 0px 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  
+    
+}
+
+h5{
+    color: #FFF;
+
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+text-transform: uppercase;
+text-align: center;
+}
+.z{
+margin-top: 3%;
+text-align: center;
+margin-bottom: 10%;
+}
+h2{
+color: #FFF;
+
+font-family: Livvic;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+.FruitsAndVegetables div{
+     display: flex;
+  
+    
+    justify-content: space-between;
+    
+align-items: center;
+}
+.cikonkami{
+    
+    width: 14%;
+    
+    padding: 33px 0px;
+
+    border-radius: 15px;
+    background: #445945;
+    
+ 
+
+}
+.cikonkami img{
+    width: 35%;
+    margin: 0px 34%;
+
+}
+.cikonkami p{
+  
+color: #FFF;
+margin-top: 20px;
+text-align: center;
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.cikonkami:hover{
+    background-color: #F7C35F;
+    transition: background-color 0.3s;
+}
+.cikonkami:focus{
+    background-color: #6A8A6D;
+    transition: background-color 0.3s;
+}
+.cikonkami:active{
+    background-color: #263C28;
+    transition: background-color 0.3s;
+}
+
+
+@media (max-width: 900px){
+
+    .FruitsAndVegetables div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 5.5%;
+    }
+    .cikonkami{
+        box-sizing: border-box;
+        width: 183px;
+        height: 177px;
+        padding: 33px 0px;
+    
+        border-radius: 15px;
+        background: #445945;
+        
+     
+    
+    }
+    .cikonkami img{
+        width: 60px;
+        height: 60px;
+        margin: 0px 57px;
+    
+    }
+    .cikonkami p{
+        width: 183px;
+    color: #FFF;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+.Future{
+    background: linear-gradient(90deg, #263C28 -0.7%, rgba(38, 60, 40, 0.80) -0.69%, rgba(0, 0, 0, 0.00) 100%, rgba(38, 60, 40, 0.22) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(image/image.png), lightgray 50% / cover no-repeat;
+    box-sizing: border-box;
+    height: auto;
+    flex-shrink: 0;
+    padding: 10% 44% 11% 10%;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+.OurProjects{
+    background: #263C28;
+    background-image: url(image/style.png);
+    background-size: 100% 420px;
+    padding: 130px 240px 160px 240px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card{
+    width: 318px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 56px;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.card:nth-child(1){
+    
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%), url(image/one.png);
+}
+.card:nth-child(2){
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%), url(image/two.png);
+}
+.card:nth-child(3){
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%),  url(image/tree.png);
+}
+.card:nth-child(4){
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%),  url(image/four.png);
+    margin-right: -56px;
+
+}
+
+.cardtext{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    margin-right: 160px;
+    
+}
+.card p:nth-child(1){
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.card p:nth-child(2){
+    color: #FFF;
+    width: 133px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 5px;
+    
+}
+
+svg{
+    position: absolute;
+    right: 25px;
+    bottom: 41px;
+    height: 24px;
+    width: 24px;
+    fill: #F7C35F;
+ 
+   
+}
+
+
+.card:hover{
+    border: 1px solid #F7C35F;
+    transform: translateY(-10px);
+    transition: border 0.3s;
+    transition: translateY 0.3s;
+}
+.card:focus{
+    border: 1px solid #F7C35F;
+    transition: border-radius 0.3s;
+
+}
+
+.card:active{
+transform: scale(0.92);
+border: 1px solid #A16C06;
+transition: transform 0.3s;
+}
+
+.card:focus svg{
+    fill: #C58D21;
+    transition: fill 0.3s;
+}
+.card:active svg{
+    fill: #A16C06;
+    transition: fill 0.3s;
+}
+
+footer{
+    height: 110px;
+    background: #334B35;
+    max-width: 1920px;
+    color: #ffffff;
+
+}
+.footer{
+    padding-left: 241px;
+    padding-right: 241px;
+    height: 110px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+
+}
+.footer div{
+    display: flex;
+}
+.footer p:nth-child(2){
+    margin-left: 40px;
+}
+footer button{
+    margin-top: 19px;
+    height: 70px;
+    width: 70px;
+    align-items: flex-start;
+    border-radius: 70px;
+    background: #F7C35F;
+    color: #1A1A1A;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 40px;
+      
+  }
+
+  footer input{
+    margin-top: 19px;
+    width: 250px;
+    border-radius: 50px;
+    height: 30px;
+    background-color: #263C28;
+    padding: 20px;
+    border: 1px solid #939E94;
+}
+
+footer p{
+    margin-top: 39px;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+
+
+
+
+button:hover{
+    background-color: #F6D086;
+    transition: background-color 0.3s;
+}
+button:focus{
+    background-color: #C58D21;
+    transition: background-color 0.3s;
+}
+button:active{
+background-color:  #A16C06;
+transition: background-color 0.3s;
+}
