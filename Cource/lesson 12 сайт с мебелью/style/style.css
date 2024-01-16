@@ -3,12 +3,31 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Medium.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
 
 header{
     background: #ffffff;
     max-width: 1920px;
-    min-width: 420px;
+    min-width: 430px;
     width: 100%;
 
 }
@@ -19,7 +38,6 @@ header{
     padding: 1% 1.5%;
     
 }
-
 .Avion p{
     color: #22202E;
     font-family: Roboto;
@@ -28,12 +46,26 @@ header{
     font-weight: 400;
     
 }
-
-.header img{
-    width: 1.1%;
-    height: 1.1%;
+.img, .img1, .img2{
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
+.img:nth-child(1){
+    background-image: url(../img/Search.svg);
+}
+.img1{
+    background-image: url(../img/Shopping.svg);
+}
+.img2{
+    background-image: url(../img/User--avatar.svg);
+}
+.headerimg{
+    display: flex;
+    gap: 10px;
+}
 header hr{
     background-color: rgba(0, 0, 0, 0.10);
     height: 1px;
@@ -42,18 +74,16 @@ header hr{
     margin-right: 1.5%;
     
 }
-
 nav{
     padding: 1% 0%;
 }
-
 nav ul{
     display: flex;
     gap: 2%;
     text-align: center;
     justify-content: center;
+    
 }
-
 nav li{
 list-style-type: none;
 color: #726E8D;
@@ -64,11 +94,6 @@ font-weight: 400;
 line-height: 140%; /* 28px */
 
 }
-
-
-
-
-
 main{
     background: #ffffff;
     max-width: 1920px;
@@ -77,25 +102,45 @@ main{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Obloska{
     padding: 4.2% 5.6%;
     display: flex;
     
+    
 }
-
 .Obloska div{
     background: var(--Dark-Primary, #2A254B);
     color: white;
     padding: 4.2%;
-    width: 60%;
+    
+    
 
 }
-
 .Obloska img{
-    width: 36.12%;
+    width: 35%;
+    height: auto;
+    display: block;
+    max-width: 100%;
     
 }
-
 h1{
     color: var(--White, #FFF);
 font-family: Roboto;
@@ -106,7 +151,6 @@ line-height: 140%; /* 44.8px */
 padding-bottom: 8.4%;
 
 }
-
 .Obloska p{
     color: var(--White, #FFF);
     font-family: Roboto;
@@ -117,8 +161,7 @@ padding-bottom: 8.4%;
     margin-top: 28%;
     
 }
-
-.Obloska button{
+.comp{
     display: flex;
 padding: 16px 32px;
 align-items: flex-start;
@@ -127,6 +170,17 @@ background: rgba(249, 249, 249, 0.15);
 color: #FFFFFF;
 
 }
+.tel{
+    display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -154,7 +208,7 @@ margin-bottom: 3%;
 }
 .cikonkami img{
     height: auto;
-    width: 7%;
+    width: 9%;
 }
 
 .cikonkami p{
@@ -164,6 +218,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 28px */
+
 }
 
 .cikonkami p:nth-child(2){
@@ -177,8 +232,22 @@ line-height: 140%; /* 28px */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .NewCeramics{
     padding: 4.2% 5.6%;
+   
+    
 }
 
 .z{
@@ -196,9 +265,15 @@ margin-bottom: 3%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1,4%;
+    gap: 3%;
 }
-
+.photos1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 7%;
+}
 .new p{
     color: var(--Dark-Primary, #2A254B);
 font-family: Roboto;
@@ -209,8 +284,26 @@ line-height: 140%; /* 28px */
 margin-top: 3%;
 }
 
+.new{
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 button{
-    text-align: center;
     padding: 0;
     border: none;
     font: inherit;
@@ -221,6 +314,7 @@ button{
 }
 
 .view{
+text-align: center;
 display: flex;
 padding: 16px 32px;
 justify-content: center;
@@ -235,7 +329,27 @@ line-height: 140%;
 text-align: center;
 margin: 0 auto;
 margin-top: 2.5%;
+margin-bottom: 4%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .PopularProducts{
     padding: 4.2% 5.6%;
@@ -244,9 +358,17 @@ margin-top: 2.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1,4%;
+    gap: 3%;
+    width: 100%;
 }
-.photos2{
+.photos2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 7px;
+}
+.photos2 p{
     color: var(--Dark-Primary, #2A254B);
     font-family: Roboto;
     font-size: 20px;
@@ -265,28 +387,55 @@ margin-top: 2.5%;
 
 
 
+
+
 .Join{
     padding: 4.2% 5.6%;
     padding: 4.2%;
 }
 
-.Join h3, p{
+.Join h3, .Join p{
     text-align: center;
 }
-
+.Join p{
+    color: var(--Dark-Primary, #2A254B);
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+margin: 0 auto;
+margin-top: 1.5%;
+}
 .Join div{
     display: flex;
     justify-content: center;
+    margin-top: 5.6%;
 }
 
 .Join button{
+    
     display: flex;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
     background: var(--Dark-Primary, #2A254B);
+    color: #FFF;
+    font-size: 20px;
     
 }
+input{
+    border: none;
+    background-color: #F9F9F9;
+}
+
+.Join input{
+    width: 30%;
+}
+
+.Join input::placeholder { font-size: 20px;  color: rgb(158, 158, 158); padding-left: 10%; }
+
 
 
 
@@ -295,14 +444,27 @@ gap: 10px;
 
 
 .GlobalBrand{
-    padding-left: 5.6%;
+    
+    padding-top: 4.6%;
     display: flex;
+   
 
 }
 .GlobalBrand div{
     padding: 5% 6% 7% 0%;
+    padding-left: 5.6%;
+    
+    flex: 1;
 }
-.GlobalBrand h3{
+.GlobalBrand img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    flex: 1;
+    
+    
+}
+h3{
     color: #2A254B;
 font-family: Roboto;
 font-size: 24px;
@@ -339,20 +501,46 @@ line-height: 140%; /* 33.6px */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background: #2A254B;
     max-width: 1920px;
-    min-width: 420px;
+    min-width: 430px;
     width: 100%;
 }
-
 .footer{
     display: flex;
     justify-content: space-between;
     padding: 4.2% 5.6%;
+    
 }
+.stolbiki{
+    flex:1;
+    display: flex;
+    gap: 20%;
+   
+}
+.dl{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+    padding-left: -20px;
+   
+}
+
 .footer p{
-    color: var(--White, #FFF);
+color: var(--White, #FFF);
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
@@ -368,7 +556,41 @@ font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 22.4px */
 list-style-type: none;
+margin-top: 12px;
 
+}
+.inputfooter{
+    display: flex;
+padding: 16px 32px;
+color: #2A254B;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */ 
+background-color: white;
+width: 25%;
+align-items: center;
+justify-content: center;
+
+
+}
+footer input{
+    background: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
+    width: 75%;
+   
+   
+    
+}
+input::placeholder { font-size: 20px;  color: white; padding-left: 10%; }
+
+.forma{
+    margin-top: 12px;
+    display: flex;
+    font-display: column;
+    justify-content: start;
+    
 }
 footer hr{
     background-color: #4E4D93;
@@ -376,10 +598,18 @@ footer hr{
     border: none;
     margin: 0% 5.6%;
 }
+
+
+
+
+
+
 .niz{
-    padding: 4.2% 5.6%;
+    padding: 3% 5.6% 4.2% 5.6% ;
     display: flex;
     justify-content: space-between;
+   
+    
 
 }
 
@@ -390,10 +620,16 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 28px */
+
+
 }
 
-svg{
-    width: 14%;
+.niz div{
+    display: flex;
+    justify-content: end;
+}
+.niz svg{
+    width: 100%;
     height: auto;
-    margin-left: 14%;
+    margin-left: 24px;
 }

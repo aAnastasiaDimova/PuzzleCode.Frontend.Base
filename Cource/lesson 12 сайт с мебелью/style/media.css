@@ -1,0 +1,250 @@
+@media (max-width: 430px){
+    header{
+        background: #ffffff;
+        max-width: 430px;
+        width: 100%;
+    
+    }
+    
+    .Avion{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+    .img{
+        display: none;
+    }
+    .img1{
+        background-image: url(../img/Search.svg);
+        
+    }
+    .img2{
+        background-image: url(../img/Menu.svg);
+    }
+    .headerimg{
+        display: flex;
+        gap: 10px;
+    }
+    
+   header hr, nav{
+        display: none;
+   }
+
+
+
+
+
+
+
+    main{
+         background: #ffffff;
+         max-width: 430px;
+         width: 100%;
+         
+        }
+        
+        .Obloska{
+            padding: 4.2% 0%;
+            display: flex;
+            
+            
+        }
+        
+        .Obloska div{
+            background: var(--Dark-Primary, #2A254B);
+            color: white;
+            width: 100%;
+            padding: 40px 24px 45px 24px;
+        
+        }
+        .Obloska img{
+           display: none;
+           
+        }
+        
+        
+        h1{
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+        
+        
+        }
+        
+        .Obloska p{
+            font-size: 16px;
+            margin-top: 159px;
+            margin-bottom: 34px;
+            text-align: start;
+            
+        }
+        .tel{
+            display: flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        background: rgba(249, 249, 249, 0.15);
+        color: #FFFFFF;
+        
+        }
+        .comp{
+            display: none;
+        }
+        
+
+
+
+
+
+
+        .OurBrand{
+            padding: 48px 24px 37px 24px;
+            
+        }
+        .OurBrand h2{
+            font-size: 20px;
+        }
+        
+        .Ikonkiiii{
+            display: flex;
+            flex-direction: column;
+        }
+        .cikonkami img{
+            height: auto;
+            width: 7%;
+        }
+        
+        .cikonkami p:nth-child(2){
+        font-size: 20px;
+        text-align: start;
+        font-weight: 400;
+        }
+        
+        .cikonkami p:nth-child(3){
+            font-weight: 400;
+            margin: 3% 0%;
+            font-size: 16px;
+            text-align: start;
+            
+        }
+
+        .photos1{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3%;
+            width: 100%;
+            
+        }
+        .photos2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3%;
+            width: 100%;
+        }
+        .one{
+            display: none;
+        }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        .Join{
+            padding: 48px 24px 56px 24px;
+        }
+        
+        .Join h3{
+            font-size: 20px;
+            text-align: start;
+        }
+        .Join p, .GlobalBrand p{
+            font-size: 16px;
+            text-align: start;
+            
+        }
+        .Join div{
+            justify-content: left;
+
+        }
+        .Join input{
+            width: 100%;
+        }
+        .GlobalBrand{
+            display: flex;
+            flex-direction: column;
+            padding-left: 0%;
+            
+        
+        }
+        
+        .GlobalBrand div{
+            padding: 24px 24px;
+            
+        
+        }
+        
+        .GlobalBrand img{
+            width: 100%;
+            height: auto;
+            display: block;
+            max-width: 100%;
+        
+        }
+        .GlobalBrand button{
+            margin: 0 auto;
+            margin-top: 56px;
+           
+        }
+
+
+
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+        .stolbiki{
+            flex:1;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            gap: 25px;
+        }
+        .dl{
+            margin-top: 25px;
+        }
+
+
+
+
+
+
+
+      .niz p{
+       margin: 0 auto;
+        font-size: 16px;
+
+      }
+    .niz div{
+        display: none;
+    }
+    
+        
+    
+}
+
+
+    
+
+
+
