@@ -35,7 +35,7 @@ header{
 .Avion{
     display: flex;
     justify-content: space-between;
-    padding: 1% 1.5%;
+    padding: 1.5% 1.9%;
     
 }
 .Avion p{
@@ -52,19 +52,27 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    
 }
 .img:nth-child(1){
     background-image: url(../img/Search.svg);
+    margin-top: 3px;
 }
+    
+   
+
 .img1{
     background-image: url(../img/Shopping.svg);
+    margin-top: 3px;
 }
 .img2{
     background-image: url(../img/User--avatar.svg);
+    margin-top: 3px;
 }
 .headerimg{
     display: flex;
-    gap: 10px;
+    gap: 16px;
 }
 header hr{
     background-color: rgba(0, 0, 0, 0.10);
@@ -75,13 +83,14 @@ header hr{
     
 }
 nav{
-    padding: 1% 0%;
+    padding: 1.5% 12%;
 }
 nav ul{
     display: flex;
-    gap: 2%;
+    gap: 3.06%;
     text-align: center;
     justify-content: center;
+    
     
 }
 nav li{
@@ -121,7 +130,7 @@ main{
 
 
 .Obloska{
-    padding: 4.2% 5.6%;
+    padding: 3.8% 5.6%;
     display: flex;
     
     
@@ -129,16 +138,19 @@ main{
 .Obloska div{
     background: var(--Dark-Primary, #2A254B);
     color: white;
-    padding: 4.2%;
+    padding: 4.5%;
+    flex: 5;
+    
     
     
 
 }
 .Obloska img{
-    width: 35%;
+    width: 100%;
     height: auto;
     display: block;
     max-width: 100%;
+    flex: 3;
     
 }
 h1{
@@ -148,7 +160,8 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 44.8px */
-padding-bottom: 8.4%;
+padding-bottom: 7%;
+padding-right: 25%;
 
 }
 .Obloska p{
@@ -158,7 +171,7 @@ padding-bottom: 8.4%;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
-    margin-top: 28%;
+    margin-top: 30%;
     
 }
 .comp{
@@ -166,6 +179,7 @@ padding-bottom: 8.4%;
 padding: 16px 32px;
 align-items: flex-start;
 gap: 10px;
+font-size: 20px;
 background: rgba(249, 249, 249, 0.15);
 color: #FFFFFF;
 
@@ -199,18 +213,33 @@ font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 44.8px */
 text-align: center;
-margin-bottom: 3%;
+margin-bottom: 3.3%;
 }
 
 .Ikonkiiii{
     display: flex;
-    gap: 5.6%;
+    gap: 59px;
+    margin-left: 6px;
+    
+}
+.cikonkami{
+    flex: 3;
+    width: 270px;
 }
 .cikonkami img{
     height: auto;
-    width: 9%;
+    width: 24px;
 }
-
+/*  
+.cikonkami:nth-child(2){
+    margin-left: -26px;
+}
+.cikonkami:nth-child(3){
+    margin-left: -28px;
+}
+.cikonkami:nth-child(4){
+    margin-left: -24px;
+}*/
 .cikonkami p{
     color: var(--Dark-Primary, #2A254B);
 font-family: Roboto;
@@ -219,15 +248,19 @@ font-style: normal;
 font-weight: 400;
 line-height: 140%; /* 28px */
 
-}
 
-.cikonkami p:nth-child(2){
-    font-weight: 500;
-    margin: 3% 0%;
+
+}
+.cikonkami p:nth-child(3){
+   
+    margin-top: -2%;
     
 }
-
-
+.cikonkami p:nth-child(2){
+    font-weight: 500;
+    margin: 5% 0%;
+    
+}
 
 
 
