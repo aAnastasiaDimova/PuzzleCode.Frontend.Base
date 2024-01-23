@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 430px){
     header{
         background: #ffffff;
@@ -7,8 +14,12 @@
     }
     
     .Avion{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         padding: 20px;
         
     }
@@ -18,6 +29,8 @@
         background-image: url(../img/Menu.svg);
     }
     .headerimg{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         gap: 10px;
     }
@@ -43,9 +56,17 @@
         
         .Obloska{ 
             padding: 0 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             gap: 20px;
+            background-color: #F9F9F9;
+            margin-bottom: 40px;
+           
             
             
         }
@@ -57,18 +78,25 @@
         }
 
         .oblknopki{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column-reverse;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: reverse;
+                -ms-flex-direction: column-reverse;
+                    flex-direction: column-reverse;
 
         }
         .first, .second{
             width: 100%;
         
         }
-        .Obloska input{
+        .ob{
+            padding-bottom: 40px;
             
+           background-color: #F9F9F9;
         }
-   
+        
 
 
 
@@ -82,14 +110,21 @@
         }
         
         .Ikonkiiii{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
         }
         .cikonkami img{
             height: auto;
             width: 7%;
         }
-        
+        .cikonkami{
+            width: 100%;
+        }
         .cikonkami p:nth-child(2){
         font-size: 20px;
         text-align: start;
@@ -105,14 +140,18 @@
         }
 
         .photos1{
+            display: -ms-grid;
             display: grid;
+            -ms-grid-columns: 1fr 3% 1fr;
             grid-template-columns: repeat(2, 1fr);
             gap: 3%;
             width: 100%;
             
         }
         .photos2{
+            display: -ms-grid;
             display: grid;
+            -ms-grid-columns: 1fr 3% 1fr;
             grid-template-columns: repeat(2, 1fr);
             gap: 3%;
             width: 100%;
@@ -141,21 +180,28 @@
             font-size: 20px;
             text-align: start;
         }
-        .Join p, .GlobalBrand p{
+        .Join p{
             font-size: 16px;
             text-align: start;
             
         }
         .Join div{
-            justify-content: left;
+            -webkit-box-pack: left;
+                -ms-flex-pack: left;
+                    justify-content: left;
 
         }
         .Join input{
             width: 100%;
         }
         .GlobalBrand{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             padding-left: 0%;
             
         
@@ -167,30 +213,29 @@
         
         }
         
-        .GlobalBrand img{
-            width: 100%;
-            height: auto;
-            display: block;
-            max-width: 100%;
-        
-        }
-        .GlobalBrand button{
-            margin: 0 auto;
-            margin-top: 56px;
-           
-        }
+
+
 
 
 
 
         .footer{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             padding: 24px;
         }
         .stolbiki{
-            flex:1;
+            -webkit-box-flex:1;
+                -ms-flex:1;
+                    flex:1;
+            display: -ms-grid;
             display: grid;
+            -ms-grid-columns: 1fr 25px 1fr;
             grid-template-columns: repeat(2, 1fr);
 
             gap: 25px;
@@ -220,6 +265,5 @@
 
 
     
-
 
 

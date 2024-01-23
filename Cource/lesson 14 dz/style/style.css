@@ -1,3 +1,5 @@
+
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -157,16 +159,18 @@ main{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #F9F9F9;
     
     
 }
 .ob{
-    background: white;
+    background-color: #F9F9F9;
     color: #2A254B;
     padding: 4.5%;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+            
     
     
     
@@ -213,6 +217,8 @@ margin-bottom: 6%;
 }
 
 .dimensions{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     color: #2A254B;
     gap: 15%;
@@ -235,28 +241,83 @@ margin-bottom: 6%;
 }
 .oblknopki{
     font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 10px;
 }
 .first{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 padding: 16px 32px;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 gap: 10px;
     background: var(--Dark-Primary, #2A254B);
     color: #FFFFFF;
     width: 45%;
 }
 .second{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 padding: 16px 32px;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
 gap: 10px;
     background: rgba(255, 255, 255, 0.15);
     color: var(--Dark-Primary, #2A254B);;
     width: 45%;
+    background-color: white;
+
+}
+
+.Obloska input::-webkit-input-placeholder{
+    color: black;
+    text-align: center;
+     
+    
+
+    
+
+}
+
+.Obloska input::-moz-placeholder{
+    color: black;
+    text-align: center;
+     
+    
+
+    
+
+}
+
+.Obloska input:-ms-input-placeholder{
+    color: black;
+    text-align: center;
+     
+    
+
+    
+
+}
+
+.Obloska input::-ms-input-placeholder{
+    color: black;
+    text-align: center;
+     
+    
+
+    
 
 }
 
@@ -274,6 +335,7 @@ gap: 10px;
     padding: 15px;
     margin-bottom: 6%;
     width: 100px;
+    background-color: white;
 
 }
 
@@ -319,16 +381,7 @@ margin-bottom: 3.3%;
     height: auto;
     width: 24px;
 }
-/*  
-.cikonkami:nth-child(2){
-    margin-left: -26px;
-}
-.cikonkami:nth-child(3){
-    margin-left: -28px;
-}
-.cikonkami:nth-child(4){
-    margin-left: -24px;
-}*/
+
 .cikonkami p{
     color: var(--Dark-Primary, #2A254B);
 font-family: Roboto;
@@ -382,44 +435,6 @@ line-height: 140%; /* 44.8px */
 text-align: start;
 margin-bottom: 3%;
 }
-
-.photos1{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 3%;
-}
-.photos1 img{
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    margin-bottom: 7%;
-}
-.new p{
-    color: var(--Dark-Primary, #2A254B);
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%; /* 28px */
-margin-top: 3%;
-}
-
-.new{
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-}
-
-
-
 
 
 
@@ -529,7 +544,9 @@ margin-bottom: 4%;
         -ms-flex: 1;
             flex: 1;
 }
-
+.PopularProducts button{
+    background-color: #F9F9F9;
+}
 
 
 
@@ -539,7 +556,9 @@ margin-bottom: 4%;
     padding: 4.2% 5.6%;
     padding: 4.2%;
 }
-
+.Join h3{
+    margin-top: 64;
+}
 .Join h3, .Join p{
     text-align: center;
 }
@@ -585,6 +604,7 @@ gap: 10px;
 input{
     border: none;
     background-color: #F9F9F9;
+    
 }
 
 .Join input{
@@ -606,7 +626,15 @@ input{
 
 
 
-
+.GlobalBrand h3{    
+    color: var(--Dark-Primary, #2A254B);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 33.6px */
+margin-bottom: 6%;
+}
 
 .GlobalBrand{
     
@@ -617,7 +645,7 @@ input{
    
 
 }
-.GlobalBrand div{
+.GlobalBrand .Join{
     padding: 5% 6% 7% 0%;
     padding-left: 5.6%;
     
@@ -627,59 +655,6 @@ input{
     
             flex: 1;
 }
-.GlobalBrand img{
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    
-    
-}
-h3{
-    color: #2A254B;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%; /* 33.6px */
-}
-
-.GlobalBrand p{
-    color: #505977;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%; /* 28px */
-    text-align: start;
-    padding-top: 3%;
-}
-.GlobalBrand button{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 16px 32px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: #2A254B;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 140%;
-    text-align: center;
-    margin-top: 15%;
-    }
-
-
-
-
 
 
 
